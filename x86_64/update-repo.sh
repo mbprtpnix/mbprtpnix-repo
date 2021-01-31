@@ -2,7 +2,10 @@
 
 rm mbprtpnix-repo*
 
-echo "repo-add"
+echo "########################################"
+echo "#####           repo-add           #####"
+echo "########################################"
+
 #repo-add -s -n -R mbprtpnix-repo.db.tar.gz *.pkg.tar.zst
 repo-add -n -R mbprtpnix-repo.db.tar.gz *.pkg.tar.zst
 sleep 5
